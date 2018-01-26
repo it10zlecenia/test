@@ -6,7 +6,7 @@ public class Main {
 	{
 		Pracownik pracownik = new Pracownik("Jan", "Kowalski", "00000000000", "informatyk");
 		
-		System.out.println(pracownik.toString());
+		System.out.println("Dane pracownika: " + pracownik.toString());
 	}
 
 }
